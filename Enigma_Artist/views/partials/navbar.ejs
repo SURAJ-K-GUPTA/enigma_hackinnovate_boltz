@@ -1,0 +1,48 @@
+<!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script src="https://kit.fontawesome.com/42a182743f.js" crossorigin="anonymous"></script>
+<!-- Google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/css/navbar.css" />
+
+<!-- nav -->
+<nav>
+    <div class="enigma">
+        Enigma
+    </div>
+
+    <ul>
+        <% if (artistAuth) { %>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/api/v1/artists/profile-page">Profile</a>
+            </li>
+            <li>
+                <a href="/api/v1/arts/get-art-form" class="create-art-btn">New Art</a>
+            </li>
+            <li>
+                <a style="background-color: red;" href="/api/v1/artists/logout" class="create-art-btn">Logout</a>
+            </li>
+        <% }else{ %>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/api/v1/artists/login">Login</a>
+            </li>
+            <li>
+                <a href="/api/v1/artists/register">Register</a>
+            </li>
+           
+        <% } %>
+        
+       
+        
+        
+    </ul>
+</nav>

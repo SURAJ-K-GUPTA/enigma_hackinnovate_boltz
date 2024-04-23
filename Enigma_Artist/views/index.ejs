@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:url" content="https://fullstack-blog-ruby.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FULLSTACK-BLOG: THIS IS A FULL STACK BLOG WEB APP.">
+  <meta property="og:description" content=".🚀 Full Stack Blog Project: Leveraging EJS templates for server-side rendering, this MERN-based application seamlessly integrates MongoDB, Express.js, and Node.js for efficient content management and dynamic presentation.">
+  <meta property="og:image" content="https://res.cloudinary.com/dg3sdel4o/image/upload/v1705919659/meta%20images/smkyrnslkddfqaoy8sry.jpg">
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" href="./images/logo.png" type="image/x-icon">
+  <title>Enigma - Art Gallery HackInnovate</title>
+</head>
+
+<body>
+  <!-- nav -->
+  <%-include('partials/navbar.ejs') %>
+
+    <!-- header -->
+    <header>
+      <div class="header-content">
+        <h1>You Like, We Make</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+          reiciendis
+        </p>
+        <a href="/api/v1/arts/get-art-form">
+          <span>Create New Art</span>
+        </a>
+      </div>
+    </header>
+    <!-- Latest art title -->
+
+    <div class="latest-art-title">
+      <!-- Icon -->
+      <div class="icon">
+        <i class="fas fa-book-open"></i>
+      </div>
+      <h1>Latest Arts (20)</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+        voluptates.
+      </p>
+    </div>
+
+    <!-- content -->
+    <section class="container-flex">
+
+      <% if (arts?.length<=0) { %>
+        <h2>No Art Found</h2>
+        <% } else { %>
+          <% arts?.reverse().forEach((art)=>{%>
+            <article class="art-content">
+
+              <img src="<%=art?.image%>" alt="" class="art-image" />
+              <p class="art-info">
+                <span class="art-author">
+                  <i class="fas fa-artist"></i>
+                  <a href="#">
+                    <%=art?.artist?.fullname%>
+                  </a>
+                </span>
+                <span class="art-date">
+                  <i class="far fa-calendar-alt"></i>
+                  <time datetime="2020-01-01">
+                    <%=art?.createdAt.toLocaleDateString()%>
+                  </time>
+                </span>
+              </p>
+              <h1 class="art-title">
+                <%=art?.title%>
+              </h1>
+              <p class="art-body">
+                <%=truncateArt(art?.description)%>
+              </p>
+              <!-- category -->
+              <div class="art-category">
+                <span>Category : <%=art?.category%> </span>
+              </div>
+              <a href="/api/v1/arts/<%=art?._id%>" class="art-read-more">Continue Reading...</a>
+            </article>
+
+            <% }) %>
+
+
+
+              <% } %>
+
+
+
+    </section>
+    <!-- footer -->
+    <%-include('partials/footer.ejs') %>
+
+</body>
+
+</html>

@@ -1,0 +1,1349 @@
+{
+  "users": [
+    {
+      "name": "John Cena 1",
+      "email": "suraj1@gmail.com",
+      "password": "1aS1aS1aS",
+      "phoneNumber": 123456789000,
+      "confirmPassword": "123456",
+      "role": "user",
+      "addresses": [
+        {
+          "name": "John Wick",
+          "street": "11th Main",
+          "city": "Delhi",
+          "pinCode": 110001,
+          "state": "Dehi",
+          "phone": 1231231231
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "John Cena 2",
+      "email": "suraj@gmail.com",
+      "password": "1a2s3dS!",
+      "phoneNumber": 12345678900,
+      "confirmPassword": "123456",
+      "role": "admin",
+      "addresses": [],
+      "id": 2
+    },
+    {
+      "name": "Jack Morris",
+      "phoneNumber": 123456789,
+      "password": "123456",
+      "confirmPassword": "123456",
+      "role": "user",
+      "addresses": [
+        {
+          "name": "Jack Morris new edited",
+          "email": "jackmorris@gmail.com",
+          "phoneNumber": 112211221122,
+          "street": "1122",
+          "addressLine2": "1122",
+          "city": "onetwo",
+          "state": "onetwo",
+          "pinCode": 121212,
+          "country": "onetwo"
+        },
+        {
+          "name": "Jack Morris",
+          "email": "jackm@gmail.com",
+          "phoneNumber": 123456789,
+          "street": "111 abc",
+          "addressLine2": "1122",
+          "city": "abc",
+          "state": "state",
+          "pinCode": 123,
+          "country": "India"
+        }
+      ],
+      "id": 3,
+      "email": "jackemail@gmail.com"
+    },
+    {
+      "name": "John Doe",
+      "phoneNumber": 1234567890,
+      "password": "123456",
+      "confirmPassword": "123456",
+      "role": "user",
+      "addresses": [
+        {
+          "name": "Abhishek Rathore",
+          "email": "testingagain@gmail.com",
+          "city": "Banaglore",
+          "state": "Karnataka",
+          "pinCode": "560034",
+          "phone": "1234567788",
+          "street": "11th Main"
+        },
+        {
+          "name": "Abhishek Rathore",
+          "email": "testingagain@gmail.com",
+          "city": "Banaglore",
+          "state": "Karnataka",
+          "pinCode": "560034",
+          "phone": "1234567788",
+          "street": "11th Main"
+        },
+        {
+          "name": "Jack Morris",
+          "email": "jack@gmail.com",
+          "city": "Delhi",
+          "state": "Delhi",
+          "pinCode": "110006",
+          "phone": "11223344556677889900",
+          "street": "12th cross"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "qwerty",
+      "phoneNumber": 606060606060,
+      "password": "123456",
+      "confirmPassword": "123456",
+      "role": "user",
+      "addresses": [],
+      "id": 5
+    }
+  ],
+  "shops": [
+    {
+      "id": 1,
+      "storeName": "Artist 1",
+      "description": "Best artist in world.",
+      "style": "modern_art",
+      "artsist_username": "artist1",
+      "shopkeeper": {
+        "id": 1,
+        "ownerName": "John Doe",
+        "email": "john.doe@example.com",
+        "contact": 6781918172,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "modern_art",
+        "city": "artist1",
+        "storeAddress": "123 Main Street"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 101,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "shopId": 1
+        },
+        {
+          "id": 102,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productImage": "https://images.unsplash.com/photo-1541367777708-7905fe3296c0?q=80&w=1795&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "shopId": 1
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "gallery": [
+          "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1482160549825-59d1b23cb208?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1570393080660-de4e4a15a247?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "https://images.unsplash.com/photo-1541367777708-7905fe3296c0?q=80&w=1795&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "storeName": "Artist 2",
+      "description": "Best artist in world.",
+      "style": "modern_art",
+      "artsist_username": "artist2",
+      "shopkeeper": {
+        "id": 1,
+        "ownerName": "John Cena",
+        "email": "john.cena@example.com",
+        "contact": 6781918172,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "modern_art",
+        "city": "artist2",
+        "storeAddress": "123 Main Street"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 201,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 2,
+          "productImage": "https://images.unsplash.com/photo-1493210977798-4f655ac200a9?q=80&w=1904&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "id": 202,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 2,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+        "gallery": [
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "storeName": "Artist 3",
+      "description": "Best artist in world.",
+      "style": "modern_art",
+      "artsist_username": "artist3",
+      "shopkeeper": {
+        "id": 1,
+        "ownerName": "John Cena",
+        "email": "john.cena@example.com",
+        "contact": 6781918172,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "modern_art",
+        "city": "artist3",
+        "storeAddress": "123 Main Street"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 301,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 3,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        },
+        {
+          "id": 302,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 3,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://images.unsplash.com/photo-1570393080660-de4e4a15a247?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "gallery": [
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "storeName": "Artist 4",
+      "description": "Best artist in world.",
+      "style": "digital_art",
+      "artsist_username": "artist4",
+      "shopkeeper": {
+        "id": 1,
+        "ownerName": "John Cena",
+        "email": "john.cena@example.com",
+        "contact": 6781918172,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "digital_art",
+        "city": "artist4",
+        "storeAddress": "123 Main Street"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 401,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 4,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        },
+        {
+          "id": 402,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 4,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?q=80&w=2066&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "gallery": [
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "storeName": "Artist 5",
+      "description": "Best artist in world.",
+      "style": "digital_art",
+      "artsist_username": "artist5",
+      "shopkeeper": {
+        "id": 1,
+        "ownerName": "John Cena",
+        "email": "john.cena@example.com",
+        "contact": 6781918172,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "digital_art",
+        "city": "artist5",
+        "storeAddress": "123 Main Street"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 501,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 5,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        },
+        {
+          "id": 502,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 5,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://images.unsplash.com/photo-1622737133809-d95047b9e673?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "gallery": [
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "storeName": "Artist 6",
+      "description": "Best artist in world.",
+      "style": "digital_art",
+      "artsist_username": "artist5",
+      "shopkeeper": {
+        "id": 1,
+        "ownerName": "John Cena",
+        "email": "john.cena@example.com",
+        "contact": 6781918172,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "digital_art",
+        "city": "artist6",
+        "storeAddress": "123 Main Street"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 601,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 6,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        },
+        {
+          "id": 602,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 6,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://images.unsplash.com/photo-1459908676235-d5f02a50184b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "gallery": [
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "storeName": "Artist 7",
+      "description": "Best artist in world.",
+      "shopkeeper": {
+        "id": 1,
+        "ownerName": "John Doe",
+        "email": "john.doe@example.com",
+        "contact": 6781918172,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "modern_art",
+        "city": "artist7",
+        "storeAddress": "123 Main Street"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 701,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 7,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        },
+        {
+          "id": 702,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 7,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://images.unsplash.com/photo-1459908676235-d5f02a50184b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "gallery": [
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "storeName": "Artist 8",
+      "description": "Best artist in world.",
+      "shopkeeper": {
+        "id": 1,
+        "ownerName": "John Cena",
+        "email": "john.cena@example.com",
+        "contact": 6781918172,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "modern_art",
+        "city": "artist8",
+        "storeAddress": "123 Main Street"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 801,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 8,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        },
+        {
+          "id": 802,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 8,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://images.unsplash.com/photo-1559102877-4a2cc0e37fce?q=80&w=1957&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "gallery": [
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "storeName": "Artist 9",
+      "description": "Best artist in world.",
+      "shopkeeper": {
+        "id": 1,
+        "ownerName": "John Cena",
+        "email": "john.cena@example.com",
+        "contact": 6781918172,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "modern_art",
+        "city": "artist9",
+        "storeAddress": "123 Main Street"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 901,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 9,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        },
+        {
+          "id": 902,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 9,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "gallery": [
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "storeName": "Artist 10",
+      "description": "Best artist in world.",
+      "shopkeeper": {
+        "id": 1,
+        "ownerName": "John Cena",
+        "email": "john.cena@example.com",
+        "contact": 6781918172,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "digital_art",
+        "city": "artist10",
+        "storeAddress": "123 Main Street"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 1001,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 10,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        },
+        {
+          "id": 1002,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 10,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://images.unsplash.com/photo-1580136579312-94651dfd596d?q=80&w=1917&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "gallery": [
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "storeName": "Artist 11",
+      "description": "Best artist in world.",
+      "shopkeeper": {
+        "id": 1,
+        "ownerName": "John Cena",
+        "email": "john.cena@example.com",
+        "contact": 6781918172,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "digital_art",
+        "city": "artist11",
+        "storeAddress": "123 Main Street"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 1101,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 11,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        },
+        {
+          "id": 1102,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 11,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://plus.unsplash.com/premium_photo-1677130269084-cd5f1a14303d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "gallery": [
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "storeName": "Artist 12",
+      "description": "Best artist in world.",
+      "shopkeeper": {
+        "id": 1,
+        "ownerName": "John Cena",
+        "email": "john.cena@example.com",
+        "contact": 6781918172,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "digital_art",
+        "city": "artist12",
+        "storeAddress": "123 Main Street"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 1201,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 12,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        },
+        {
+          "id": 1202,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 12,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://media.istockphoto.com/id/1406950636/photo/female-artist-painting-large-wall-mural.jpg?s=2048x2048&w=is&k=20&c=b5Osr103Tpw3kigwlvdFUmf7t16UWY9cLGBspS0b1Bw=",
+        "gallery": [
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        ]
+      }
+    },
+    {
+      "ownerName": "Suraj Kumar Gupta",
+      "contact": 8218024374,
+      "ownerEmail": "admin@gmail.com",
+      "password": "1a2s3dS!",
+      "confirmPassword": "1a2s3dS!",
+      "storeName": "enigma",
+      "bankAccount": 1234567890,
+      "gst": "1A4545",
+      "storeAddress": "Katra",
+      "state": "UP",
+      "city": "artist1",
+      "pinCode": 205001,
+      "additionalContact": "MERA NAAM JOKER",
+      "logo": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+      "shopkeeper": {
+        "id": 1,
+        "role": "seller",
+        "ownerName": "Suraj Kumar Gupta",
+        "contact": 8218024374,
+        "ownerAddress": "123 Main Street, Cityville",
+        "profileImage": "shopkeeper.jpg"
+      },
+      "location": {
+        "country": "India",
+        "state": "UP",
+        "city": "artist13",
+        "storeAddress": "Katra"
+      },
+      "minDiscount": 5,
+      "products": [
+        {
+          "id": 101,
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "shopId": 1
+        },
+        {
+          "id": 102,
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "shopId": 1
+        }
+      ],
+      "rating": 4.5,
+      "ratingCount": 120,
+      "images": {
+        "logo": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+        "gallery": [
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw="
+        ]
+      },
+      "id": 13
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "modern_art",
+      "value": "modern_art",
+      "cities": [
+        "artist1",
+        "artist2",
+        "artist3",
+        "artist4",
+        "artist5",
+        "artist6"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "digital_art",
+      "value": "digital_art",
+      "cities": [
+        "artist7",
+        "artist8",
+        "artist9",
+        "artist10",
+        "artist11",
+        "artist12",
+        "artist13"
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "name": "Art 2",
+      "description": "Premium Basmati Art 2",
+      "price": 499.99,
+      "discount": 10,
+      "stock": 100,
+      "productRating": 5,
+      "productRatingCount": 14,
+      "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+      "shopId": 1,
+      "productId": 101,
+      "userId": 4,
+      "quantity": 1,
+      "id": 1
+    }
+  ],
+  "wishlist": [
+    {
+      "name": "Art 2",
+      "description": "Premium Basmati Art 2",
+      "price": 499.99,
+      "discount": 10,
+      "stock": 100,
+      "productRating": 5,
+      "productRatingCount": 14,
+      "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+      "shopId": 1,
+      "productId": 101,
+      "userId": 4,
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "name": "Art 2",
+      "description": "Premium Basmati Art 2",
+      "price": 499.99,
+      "discount": 10,
+      "stock": 100,
+      "productRating": 5,
+      "productRatingCount": 14,
+      "productImage": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shopId": 1,
+      "productId": 101,
+      "userId": 3,
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "name": "Art 1",
+      "description": "High-Quality Lentils",
+      "price": 899.99,
+      "discount": 15,
+      "stock": 99,
+      "productRating": 5,
+      "productImage": "https://images.unsplash.com/photo-1541367777708-7905fe3296c0?q=80&w=1795&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shopId": 1,
+      "productId": 102,
+      "userId": 3,
+      "quantity": 1,
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "cartItems": [
+        {
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "shopId": 1,
+          "productId": 101,
+          "userId": 3,
+          "quantity": 1,
+          "id": 2
+        },
+        {
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "shopId": 1,
+          "productId": 102,
+          "userId": 3,
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "totalAmount": 1215,
+      "totalItems": 2,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "John Doe",
+        "email": "abc@gmail.com",
+        "phoneNumber": "123456789",
+        "street": "111 abc",
+        "addressLine2": "abc",
+        "city": "abc",
+        "state": "abc",
+        "pinCode": 123456,
+        "country": "India"
+      },
+      "status": "pending",
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "cartItems": [
+        {
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "shopId": 1,
+          "productId": 101,
+          "userId": 3,
+          "quantity": 1,
+          "id": 2
+        },
+        {
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "shopId": 1,
+          "productId": 102,
+          "userId": 3,
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "totalAmount": 1215,
+      "totalItems": 2,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "John Doe",
+        "email": "abc@gmail.com",
+        "phoneNumber": "123456789",
+        "street": "111 abc",
+        "addressLine2": "abc",
+        "city": "abc",
+        "state": "abc",
+        "pinCode": 123456,
+        "country": "India"
+      },
+      "status": "pending",
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "cartItems": [
+        {
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "shopId": 1,
+          "productId": 101,
+          "userId": 3,
+          "quantity": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 450,
+      "totalItems": 1,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "John Wick",
+        "street": "11th Main",
+        "city": "Delhi",
+        "pinCode": 110001,
+        "state": "Dehi",
+        "phone": 1231231231
+      },
+      "status": "pending",
+      "userId": 4,
+      "id": 3
+    },
+    {
+      "cartItems": [
+        {
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "shopId": 1,
+          "productId": 102,
+          "userId": 3,
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "totalAmount": 765,
+      "totalItems": 1,
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "John Wick",
+        "street": "11th Main",
+        "city": "Delhi",
+        "pinCode": 110001,
+        "state": "Dehi",
+        "phoneNumber": 1231231231
+      },
+      "status": "pending",
+      "userId": 3,
+      "id": 4
+    },
+    {
+      "cartItems": [
+        {
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "shopId": 1,
+          "productId": 101,
+          "userId": 3,
+          "quantity": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 450,
+      "totalItems": 1,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "asdfghj",
+        "email": "asdghj@gmail.com",
+        "phoneNumber": 1234556789,
+        "street": "111",
+        "addressLine2": "1as",
+        "city": "QWERTY",
+        "state": "QWERTY",
+        "pinCode": 123456,
+        "country": "INDIA"
+      },
+      "userId": 3,
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "cartItems": [
+        {
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "shopId": 1,
+          "productId": 101,
+          "userId": 3,
+          "quantity": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 450,
+      "totalItems": 1,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "John Wick",
+        "email": "johnwick@gmail.com",
+        "phoneNumber": 1231231232,
+        "street": "11th Main",
+        "addressLine2": "adline2",
+        "city": "Delhi",
+        "state": "Dehi",
+        "pinCode": 110001,
+        "country": "india"
+      },
+      "userId": 3,
+      "status": "pending",
+      "id": 6
+    },
+    {
+      "cartItems": [
+        {
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "shopId": 1,
+          "productId": 101,
+          "userId": 3,
+          "quantity": 2,
+          "id": 2
+        }
+      ],
+      "totalAmount": 900,
+      "totalItems": 2,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jack Morris new edited",
+        "email": "jackmorris@gmail.com",
+        "phoneNumber": 112211221122,
+        "street": "1122",
+        "addressLine2": "1122",
+        "city": "onetwo",
+        "state": "onetwo",
+        "pinCode": 121212,
+        "country": "onetwo"
+      },
+      "userId": 3,
+      "status": "pending",
+      "id": 7
+    },
+    {
+      "cartItems": [
+        {
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 2,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "productId": 201,
+          "userId": 3,
+          "quantity": 1,
+          "id": 2
+        },
+        {
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 2,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "productId": 202,
+          "userId": 3,
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "totalAmount": 1215,
+      "totalItems": 2,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jack Morris new edited",
+        "email": "jackmorris@gmail.com",
+        "phoneNumber": 112211221122,
+        "street": "1122",
+        "addressLine2": "1122",
+        "city": "onetwo",
+        "state": "onetwo",
+        "pinCode": 121212,
+        "country": "onetwo"
+      },
+      "userId": 3,
+      "status": "pending",
+      "id": 8
+    },
+    {
+      "cartItems": [
+        {
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "productImage": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "shopId": 1,
+          "productId": 101,
+          "userId": 3,
+          "quantity": 1,
+          "id": 2
+        },
+        {
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productImage": "https://images.unsplash.com/photo-1541367777708-7905fe3296c0?q=80&w=1795&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "shopId": 1,
+          "productId": 102,
+          "userId": 3,
+          "quantity": 4,
+          "id": 3
+        }
+      ],
+      "totalAmount": 3510,
+      "totalItems": 5,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jack Morris new edited",
+        "email": "jackmorris@gmail.com",
+        "phoneNumber": 112211221122,
+        "street": "1122",
+        "addressLine2": "1122",
+        "city": "onetwo",
+        "state": "onetwo",
+        "pinCode": 121212,
+        "country": "onetwo"
+      },
+      "userId": 3,
+      "status": "pending",
+      "id": 9
+    }
+  ]
+}
